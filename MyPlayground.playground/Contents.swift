@@ -14,7 +14,7 @@ var numberOfStopLights: Int = 4
 var population: Int
 population = 5422
 let townName: String = "Knowhere"
-let townDescription = "\(townName) has population of \(population) and \(numberOfStopLights) stoplights."
+let townDescription = "\(townName) has population of \(population) and \(numberOfStopLights)stoplights."
 print(townDescription)
 
 //Arrays
@@ -32,6 +32,3 @@ let meaningOfLife = String(number)
 //Dictionaries
 let nameByParkingSpace = [13: "Alice", 27: "Bob"]
 let space13Name: String? = nameByParkingSpace[13]
-
-
-
